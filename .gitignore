@@ -42,5 +42,6 @@ testem.log
 .DS_Store
 Thumbs.db
 
-
-src/app/*.js
+# Ignores compiled TypeScript files
+**/app/**/*.map
+**/app/**/*.js

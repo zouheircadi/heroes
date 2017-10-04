@@ -43,5 +43,7 @@ testem.log
 Thumbs.db
 
 # Ignores compiled TypeScript files
-**/app/**/*.map
-**/app/**/*.js
+**/app/*.js
+**/app/*.map
+/src/app/*.js
+/src/app/*.map
